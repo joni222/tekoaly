@@ -20,6 +20,7 @@ tietueet = [
     (2, "Kyberturvallisuus", "Sinä hallitset keskeisimmät kyberturvallisuuteen liittyvät osa-alueet: käsitteet (esim. luottamuksellisuus, eheys ja saatavuus), standardit ja lainsäädäntö (esim. tietosuoja, suojaustasot). Sinä käsität miten nämä soveltuvat henkilökohtaisessa, yhteiskunnallisessa ja organisaation kyberturvallisuudessa. Sinä tutustut teknisiin menetelmiin, joiden avulla voidaan esimerkiksi suojata järjestelmiä, havaita puutteita ja varmistaa tiedon eheys. Sinä tunnet tiedonsiirrossa käytetyt turvamekanismit luotettavuuteen ja saatavuuteen liittyen sekä haittaohjelmien ja haavoittuvuuksien toimintaperiaatteet ja vaikutukset.",4),
     (3, "Linuxin käyttö ja hallinta", "Suoritettuasi opintojakson ymmärrät Linux-käyttöjärjestelmän keskeisimmät käsitteet ja osaat työskennellä, sekä hallinnoida käyttöjärjestelmää tekstipohjaisen käyttöliittymän avulla.", 5)
 ]
+#lähetä tietueen tiedot tietokantaan, jos ei ole jo
 #cursor.executemany("INSERT INTO kurssit VALUES(?,?,?,?)", tietueet)
 #conn.commit()
 
